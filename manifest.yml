@@ -1,0 +1,9 @@
+applications:
+  - name: semine-backend
+    path: .
+    command: node server.js
+    instance: 1
+    routes:
+      - route: semine.mybluemix.net
+    random-route: true
+    memory: 128M
